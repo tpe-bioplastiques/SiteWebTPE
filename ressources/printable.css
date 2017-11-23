@@ -1,0 +1,42 @@
+body {
+	background-color: #f2f2f2;
+	text-align: center;
+	font-size: large;
+}
+*:not(i) {
+	font-family: "Raleway", Verdana, Arial, Helvetica, sans-serif !important;
+}
+header {
+	font-size: x-large;
+}
+footer {
+	margin-top: 40px;
+}
+
+.w3-button:not(#print) {
+	display:none;
+}
+
+.bold, .drop {
+	font-weight: bold;
+}
+.w3-card {
+	background-color: #fbfbfb;
+	margin-bottom: 20px;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+#dropdown .a {
+	display: none;
+}
+img {
+	display: none;
+}
+
+p {
+	width: 74%;
+	margin-left: 13%;
+}
