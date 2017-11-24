@@ -17,8 +17,8 @@
 
 <script>
 window.onscroll = function() {
-	console.log(screen.width)
-	if (document.getElementById('sheet2').getAttribute('href') == 'ressources/custom-w3.css' && screen.width > 993) {
+	console.log(document.width)
+	if (document.getElementById('sheet2').getAttribute('href') == 'ressources/custom-w3.css' && document.width > 993) {
 		var s = (window.pageYOffset || document.documentElement.scrollTop);
 		console.log(s);
 		if (s > 200) {
