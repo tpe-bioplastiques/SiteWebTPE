@@ -194,10 +194,10 @@ img {
 	/* Main-padding media handler */
 
 @media only screen and (max-width: 600px) {
-    .main-padding {width:100%; max-width:1200px}
+    .main-padding {width:95%; max-width:1200px}
 }
 @media only screen and (min-width: 600px) and (max-width: 993px) {
-    .main-padding {width:80%; max-width:1600px}
+    .main-padding {width:75%; max-width:1600px}
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     .main-padding {width:80%; max-width:1800px}
