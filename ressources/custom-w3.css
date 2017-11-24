@@ -149,6 +149,8 @@ textarea:valid {
 }
 img {
 	margin-bottom: 0px;
+	width: 100%;
+	height: auto;
 }
 .w80-percent {
 	/* height: 80%; */
