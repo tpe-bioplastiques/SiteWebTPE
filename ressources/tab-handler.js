@@ -10,30 +10,6 @@ function openTab(tabName) {
     document.getElementById(tabName).style.display = "block";
 }
 
-// VideoTab handler
-
-var current = "null"
-
-function launchvid (elm, tab, vidname) {
-	var place = document.getElementById(tab).children[0]; // the video frame
-	
-	var imgs = document.getElementsByClassName("ctab"); // remove "imagevalid" class from tabs
-	for (i = 0; i < imgs.length; i++) {
-		imgs[i].classList.remove("imagevalid");
-	}
-
-	if (vidname == current) {
-		document.getElementById(tab).style.display = "none"; // colse if clicked tab = opened tab
-		place.src = "";
-		current = "";
-	} else {
-		document.getElementById(tab).style.display = "block"; // else, show and set the correct source
-		place.src = "https://www.youtube.com/embed/" + vidname + "?autoplay=1";
-		current = vidname;
-		elm.classList.add("imagevalid");
-	}
-}
-
 // css handler
 
 function swapStyleSheet() {
