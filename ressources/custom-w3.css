@@ -205,11 +205,13 @@ img {
 @media only screen and (min-width: 1200px) {
     .main-padding {width:70%; max-width:2400px}
 }
-
 @media only screen and (max-width: 450px) {
-	.w3-custom-mobile {
-		display:block;
-		text-align:center;
-		width:100% !important;
-	}
+    .w3-custom-mobile {
+	    display:block;
+	    text-align:center;
+	    width:100% !important;
+    }
+}
+@media only screen and (max-height: 420px) {
+    .w3-custom-height {diplay: none}
 }
