@@ -20,9 +20,11 @@ window.onscroll = function() {
 	if (document.getElementById('sheet2').getAttribute('href') == 'ressources/custom-w3.css' && window.innerWidth > 993) {
 		var s = (window.pageYOffset || document.documentElement.scrollTop);
 		console.log(s);
-		if (s > 200) {
-			document.getElementById('menuscroller').style.marginTop = (s - 210) + 'px';
+		if (s > 200 && s < 1590) {
+			document.getElementById('menuscroller').style.marginTop = (s - 204) + 'px';
 			console.log('olala')
+		} else if (s > 1590) {
+			document.getElementById('menuscroller').style.marginTop = '1382px';
 		} else {
 			document.getElementById('menuscroller').style.marginTop = '0px';
 		}
