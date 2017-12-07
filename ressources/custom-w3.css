@@ -147,14 +147,18 @@ img {
 }
 .zoomable {
 	cursor: zoom-in;
-	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 .zoomable:hover {
 	filter: opacity(80%);
 }
 .highable {
 	cursor: s-resize;
-	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 .forceheight {
 	height: auto;
