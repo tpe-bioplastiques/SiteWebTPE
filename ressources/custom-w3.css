@@ -166,14 +166,15 @@ img {
     background-color: rgba(0,0,0,0.8);
 }
 .modcontent {
-	object-fit: contain;
     margin: auto;
 	position: relative;
 	top: 10%;
     display: block;
     height: 80%;
 	max-height: auto;
+	width: auto;
     max-width: 80%;
+	cursor: default;
 }
 
 	/* video */
