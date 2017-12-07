@@ -152,6 +152,9 @@ img {
 	width: 100%;
 	height: auto;
 }
+.zoomable {
+	cursor: zoom-in;
+}
 .modal {
     display: none;
 	cursor:alias;
