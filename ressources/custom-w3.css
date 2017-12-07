@@ -122,9 +122,6 @@ textarea {
 	height: 75px;
 	margin: 16px 0px;
 	resize: none;
-	-webkit-transition: 0.3s cubic-bezier(.2,.9,.3,1.3);
-	-moz-transition: 0.3s cubic-bezier(.2,.9,.3,1.3);
-	transition: 0.3s cubic-bezier(.2,.9,.3,1.3);
 }
 textarea:invalid {
 	box-shadow: none;
@@ -133,20 +130,6 @@ textarea:valid {
 	height: 115px;
 }
 
-.collection {
-    overflow: hidden;
-    white-space: nowrap;
-	position: relative;
-	font-size: 0px;
-}
-.collection div {
-	display: inline-block;
-	float: none;
-	position: relative;
-	-webkit-transition: 0.3s cubic-bezier(.2,.9,.3,1.2);
-	-moz-transition: 0.3s cubic-bezier(.2,.9,.3,1.2);
-	transition: 0.3s cubic-bezier(.2,.9,.3,1.2);
-}
 img {
 	margin-bottom: 0px;
 	width: 100%;
@@ -175,6 +158,12 @@ img {
 	width: auto;
     max-width: 80%;
 	cursor: default;
+}
+.forceheight {
+	height: auto;
+	-webkit-transition: ease;
+	-moz-transition: ease;
+	transition: ease;
 }
 
 	/* video */
