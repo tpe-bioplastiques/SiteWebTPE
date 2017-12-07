@@ -3,7 +3,7 @@ body {
 	background-image: url("final.png");
 	background-attachment: fixed;
 	background-position: 50% 50%;
-	background-size: cover;
+	object-fit: cover;
 }
 *:not(i) {
 	font-family: "Raleway", Verdana, Arial, Helvetica, sans-serif !important;
