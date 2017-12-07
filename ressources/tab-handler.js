@@ -1,16 +1,5 @@
 
-// Tab handler
-
-function openTab(tabName) {
-    var i;
-    var x = document.getElementsByClassName("element");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    document.getElementById(tabName).style.display = "block";
-}
-
-// css handler
+// css handler TPE
 
 function swapStyleSheet() {
 	s = document.getElementById('sheet2').getAttribute('href');
@@ -42,3 +31,32 @@ window.onclick = function(event) {
 		}
 	}
 } 
+
+// image handler
+
+function openModal(elm) {
+	document.getElementById('zoom').style.display = "block";
+	document.getElementById('image').src = elm.src;
+}
+
+function closeModal() {
+	document.getElementById('zoom').style.display = "none";
+}
+
+
+/*
+document.getElementById('zoomed');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('zoomer');
+var modalImg = document.getElementById('image');
+
+$("img.photo").click(function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  });
+
+
+document.getElementsByClassName("close")[0].onclick = function() { 
+    modal.style.display = "none";
+} */
