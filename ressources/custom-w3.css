@@ -147,6 +147,17 @@ img {
 }
 .zoomable {
 	cursor: zoom-in;
+	transition: 0.3s ease;
+}
+.zoomable:hover {
+	filter: opacity(80%);
+}
+.highable {
+	cursor: s-resize;
+	transition: 0.3s ease;
+}
+.forceheight {
+	height: auto;
 }
 .modal {
     display: none;

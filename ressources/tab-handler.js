@@ -38,9 +38,12 @@ function openModal(elm) {
 	document.getElementById('zoom').style.display = "block";
 	document.getElementById('image').src = elm.src;
 }
-
 function closeModal() {
 	document.getElementById('zoom').style.display = "none";
+}
+
+function highable(elm) {
+	elm.classList.toggle('forceheight');
 }
 
 
