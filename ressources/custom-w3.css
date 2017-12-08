@@ -155,10 +155,7 @@ img {
 	filter: opacity(80%);
 }
 .highable {
-	cursor: s-resize;
-	-webkit-transition: 0.3s ease-in-out;
-	-moz-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
+	resize: vertical;
 }
 .forceheight {
 	height: auto;
