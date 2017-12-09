@@ -184,12 +184,6 @@ img {
     max-width: 80%;
 	cursor: default;
 }
-.forceheight {
-	height: auto;
-	-webkit-transition: ease;
-	-moz-transition: ease;
-	transition: ease;
-}
 
 	/* video */
 
