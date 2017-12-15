@@ -3,6 +3,11 @@ body {
 	text-align: center;
 	font-size: large;
 }
+
+i {
+    vertical-align: middle !important;
+}
+
 *:not(i) {
 	font-family: "Raleway", Verdana, Arial, Helvetica, sans-serif !important;
 }
