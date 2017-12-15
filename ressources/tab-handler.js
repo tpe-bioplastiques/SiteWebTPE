@@ -6,9 +6,11 @@ function swapStyleSheet() {
 	if (s == 'ressources/custom-w3.css') {
 		document.getElementById('sheet1').setAttribute('href', '');
 		document.getElementById('sheet2').setAttribute('href', 'ressources/printable.css');
-		window.alert("Cliquez a nouveau sur le bouton pour revenir a l'affichage normal");
+		document.getElementById('print').innerHtml = '<i class=\"material-icons\">arrow_back</i>' normal'
 	} else {
-		location.reload();
+		document.getElementById('sheet1').setAttribute('href', 'https://www.w3schools.com/w3css/4/w3.css');
+		document.getElementById('sheet2').setAttribute('href', 'ressources/custom-w3.css');
+		document.getElementById('print').innerHtml = 'imprimable <i class=\"material-icons\">print</i>'
 	};
 }
 
