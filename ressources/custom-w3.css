@@ -61,6 +61,14 @@ i {
 	content: "v";
 	pointer-events: none;
 }
+.buttoncenter {
+	text-align:center;
+}
+.buttoncenter div {
+	display: inline-block;
+	width: auto;
+}
+
 
 .bold, .drop {
 	font-weight: bold;
