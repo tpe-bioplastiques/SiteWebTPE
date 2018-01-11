@@ -70,7 +70,9 @@ i {
 	width: auto;
 }
 
-
+.w3-dropdown-content {
+    min-width: 116.5px;
+}
 .bold, .drop {
 	font-weight: bold;
 }
@@ -83,11 +85,6 @@ i {
 	margin-top: 16px;
 }
 
-.w3-dropdown-content {
-	margin-top: 4px;
-	z-index: 1;
-	min-width: 100%;
-}
 #dropdown a {
 	white-space: nowrap;
 }
