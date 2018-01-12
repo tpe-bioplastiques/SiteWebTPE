@@ -70,8 +70,11 @@ i {
 	width: auto;
 }
 
+.w3-dropdown-hover {
+	position: relative;
+}
 .w3-dropdown-content {
-    min-width: 116.5px;
+    min-width: 100%;
 }
 .bold, .drop {
 	font-weight: bold;
