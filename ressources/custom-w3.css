@@ -36,6 +36,7 @@ i {
 }
 .w3-bar {
 	font-size: 18px !important;
+	overflow: visible;
 }
 .w3-button {
 	background-color: transparent;
@@ -71,7 +72,7 @@ i {
 }
 
 .w3-dropdown-hover {
-	position: relative;
+	position: relative !important;
 }
 .w3-dropdown-content {
     min-width: 100%;
