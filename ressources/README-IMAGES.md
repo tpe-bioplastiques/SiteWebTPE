@@ -1,6 +1,6 @@
-Some of the images containes on this website are'nt owned by me !
+## Some of the images containes on this website are'nt owned by me !
 
-The images taken from other websites have their original website's adress as name, with "/" replaced by "_" for technical reasons.
+**The images taken from other websites have their original website's adress as name, with "/" replaced by "_" for technical reasons.**
 
 
 DISCLAIMER :
