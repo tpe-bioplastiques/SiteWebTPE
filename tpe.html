@@ -30,6 +30,12 @@
 		}
 	}
 } */
+	
+	
+function resizeIframe(obj) {
+	obj.style.height = 0;
+	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}
 </script>
 </head>
 
@@ -62,7 +68,7 @@
 <div class="w3-row">
 
 <!-- Menu -->
-<iframe class="w3-col l4" src="code/sidebar.html">
+<iframe class="w3-col l4" src="code/sidebar.html" onload="resizeIframe(this)>
 </iframe>
 
 
