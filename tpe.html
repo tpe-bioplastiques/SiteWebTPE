@@ -16,7 +16,7 @@
 <link id="sheet2" rel="stylesheet" href="ressources/custom-w3.css">
 
 <script>
-window.onscroll = function() {
+/* window.onscroll = function() {
 	if (document.getElementById('sheet2').getAttribute('href') == 'ressources/custom-w3.css' && window.innerWidth > 993) {
 		var s = (window.pageYOffset || document.documentElement.scrollTop);
 		console.log(s);
@@ -29,7 +29,7 @@ window.onscroll = function() {
 			document.getElementById('menuscroller').style.marginTop = '0px';
 		}
 	}
-}
+} */
 </script>
 </head>
 
@@ -62,50 +62,8 @@ window.onscroll = function() {
 <div class="w3-row">
 
 <!-- Menu -->
-<div class="w3-col l4" id="menuscroller">
-
-	<!-- Parts -->
-	<div class="w3-card w3-margin">
-		<div class="w3-card header">
-			<h4>Parties</h4>
-		</div>
-		<ul class="w3-ul w3-hoverable">
-			<a href="part1.html" class="nolink">
-				<li class="w3-padding-16">
-					<img src="ressources/img.png" alt="img" class="w3-left w3-margin-right" style="width:50px">
-					<span class="w3-large">I- L'origine du pétrole</span><br>
-					<span>Origine du pétrole et fabrication des plastiques classiques</span>
-				</li>
-			</a>
-			<a href="part2.html" class="nolink">
-				<li class="w3-padding-16">
-					<img src="ressources/img.png" alt="img" class="w3-left w3-margin-right" style="width:50px">
-					<span class="w3-large">II- Les bioplastiques vegetaux</span><br>
-					<span>Les debuts des bioplastiques, leur fabrication chimique ou vegetale</span>
-				</li>
-			</a>
-			<a href="part3.html" class="nolink">
-				<li class="w3-padding-16">
-					<img src="ressources/img.png" alt="img" class="w3-left w3-margin-right" style="width:50px">
-					<span class="w3-large">III- Biodegradabilité et seconde génération</span><br>
-					<span>Biodegradabilité des plastiques / inspiration de plastiques d'origine animale directe.</span>
-				</li>
-			</a>
-		</ul>
-	</div>
-	
-	<!-- About Card -->
-	<div class="w3-card w3-margin w3-custom-height">
-		<div class="w3-card header">
-			<h4>Info</h4>
-		</div>
-		<div class="w3-container">
-			<p>(i) Ce site est compatible pour les portables (pas d'interfaces illisibles), et a été codé entièrement a la main et sans WYSIWYG !</p>
-		</div>
-	</div>
-	
-<!-- END INTRODUCTION MENU -->
-</div>
+<iframe class="w3-col l4" src="code/sidebar.html">
+</iframe>
 
 
 <!-- Blog entries -->
