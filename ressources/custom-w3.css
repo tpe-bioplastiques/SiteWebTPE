@@ -185,7 +185,8 @@ img:not(.no) {
 	top: 8%;
 	display: block;
 	height: 84%;
-	width: auto;object-fit: contain;
+	width: auto;
+	object-fit: contain !important;
 	max-width: 84%;
 	cursor: default;
 }
