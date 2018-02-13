@@ -60,7 +60,6 @@ i {
 	position: relative;
 	right: 30px;
 	content: "v";
-	pointer-events: none;
 }
 .buttoncenter {
 	text-align:center;
