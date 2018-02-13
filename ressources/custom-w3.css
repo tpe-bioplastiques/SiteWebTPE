@@ -186,8 +186,7 @@ img {
 	top: 8%;
 	display: block;
 	height: 84%;
-	max-height: 0 auto;
-	width: auto;
+	width: auto;object-fit: contain;
 	max-width: 84%;
 	cursor: default;
 }
