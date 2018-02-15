@@ -60,6 +60,9 @@ i {
 	width: 50px;
 	margin-right: 10px;
 }
+.nolink div {
+	width: calc(100% - 60px);
+}
 .arrow:after {
 	position: relative;
 	right: 30px;
