@@ -58,7 +58,7 @@ i {
 }
 
 .imgspec {
-	width: 50px;
+	width: 50px !important;
 	margin-right: 10px;
 }
 .nolink {
