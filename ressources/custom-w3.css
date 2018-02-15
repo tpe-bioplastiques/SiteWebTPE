@@ -56,6 +56,10 @@ i {
 	height: 43px;
 	padding: 8px 30px 8px 0px;
 }
+.imgspec {
+	width: 50px;
+	margin-right: 10px;
+}
 .arrow:after {
 	position: relative;
 	right: 30px;
